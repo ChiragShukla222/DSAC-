@@ -3,7 +3,7 @@ using namespace std ;
 
 int main(){
 
-int arr[] = {7,2,2,13,1,3,3,5,5,5,9,9,9};
+int arr[] = {7,2,2,13,1,3,3,5,5,9,9};
 int len = sizeof(arr)/sizeof(arr[0]);
 int tmp , flag ;
 cout<<"number coming more than one time are :";
