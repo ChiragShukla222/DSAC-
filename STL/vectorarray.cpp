@@ -20,8 +20,8 @@ int main(){
     }
     //to insert any element btw the array
     vector<int>::iterator p = arr.begin();
-    cout<<"\n"<<*p+1;
-    cout<<*(p+1);
+    cout<<"\n"<<*p+1;//to add 1 in the value/
+    cout<<*(p+1);//to traverse the position
     cout<<"\n insert \n";
     arr.insert(p+2,12);
     arr.insert(p+2,{7,5,6,12});
