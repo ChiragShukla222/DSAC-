@@ -27,8 +27,8 @@ int main(){
         cout<<"inserted recs are :";
         for(int i = 0 ; i < n ; i++){
             cout<<get<0>(v[i])<<"\t";
-            cout<<get<1>(v[i])<<"\t";
-            cout<<get<2>(v[i])<<"\t";
+            cout<<get<1>(v[i])<<"\n";
+           cout<<get<2>(v[i])<<"\t";
             cout<<get<3>(v[i])<<"\n";
             //cout<<get<4>(v[i])<<"\t";
         }
