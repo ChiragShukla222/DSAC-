@@ -8,5 +8,14 @@ int main(){
     li.pop_front();
     cout<<"length of list is \n";
     cout<<std::distance(li.begin() , li.end());
+     for(auto p : li){
+        cout<<p<<"\t";
+    }
+    cout<<"unique elemenets /n";
+     li.sort();
+    li.unique();
+    for(auto p2 : li){
+        cout<<p2<<"\t";
+    }
 
 }
