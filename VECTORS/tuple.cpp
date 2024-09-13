@@ -21,7 +21,7 @@ int main(){
             cin>>l;
             vtup.push_back({rn,m,name,l});
     }
-    for(int i = 0 ;i<n;i++){
+    for(int i = 0 ;i<n ;i++){
         cout<<get<0>(vtup[i])<<"\t";
         cout<<get<1>(vtup[i])<<"\t";
         cout<<get<2>(vtup[i])<<"\t";
