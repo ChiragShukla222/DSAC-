@@ -10,7 +10,7 @@ class stk {
 
     }
     void pus (int a){
-         if(top==n-1){
+         if(top==n-1 ){
             cout<<"overflow";
             return ;
          }
