@@ -31,6 +31,7 @@ void show(node* &h ){
     node *tmp = h ;
     while(tmp!=NULL){
         cout<<tmp->data<<"->";
+        tmp = tmp->nxt;
 
     }
     cout<<"NULL"<<"\n";
@@ -60,6 +61,8 @@ int main(){
     node *h = NULL;
     insrt(h,21);
     insrt(h,44);
+    insrt(h,88);
+    insrt(h,99);
     show(h);
     srch(h,44);
 }

@@ -6,7 +6,7 @@ int main(){
 
     jk.push(778);
      jk.push(77);
-    cout<<jk.top();
+    //cout<<jk.top();
 while(!jk.empty()){
     cout<<jk.top()<<"\n";
     jk.pop();
